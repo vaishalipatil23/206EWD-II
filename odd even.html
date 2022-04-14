@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<script language="javascript">
+
+function evenodd()
+{
+no=eval (document.getElementById("number").value)
+if (no%2==0)
+{
+ alert ("no is even");
+}
+else
+{
+alert ("no is odd");
+}
+}
+</script></HEAD>
+<BODY><form>
+Enter number <input type="text" id="number"><br><br> 
+<input type="button" value="check" onclick="evenodd()" id="check">
+</form>
+</BODY>
+</HTML>
